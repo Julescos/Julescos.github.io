@@ -1,0 +1,118 @@
+/* Animation Keyframes */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% {opacity: 1;}
+}
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Select color */
+::selection {
+  background-color: #55c57a;
+  color: #ffffff
+}
+
+/* Main */
+html {
+  background-image: linear-gradient(to bottom, rgba(126, 213, 111, 0.2), rgba(85, 197, 122, 0.4), rgba(40, 180, 133, 0.8)), url(../images/cover_img.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* Navigation */
+.navigation_nav {
+  width: 100%;
+}
+
+.navigation_list {
+  text-align: center;
+  list-style: none;
+}
+
+.navigation_item {
+  display: inline-block;
+  padding: 1rem;
+}
+
+.navigation_link {
+  padding: 1rem;
+}
+
+.navigation_link:link,
+.navigation_link:visited {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #eee 50%);
+  background-size: 250%;
+  transition: all .4s;
+  text-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1)
+}
+
+.navigation_link:hover,
+.navigation_link:active {
+  background-position: 100%;
+  color: #28b485;
+  border-radius: 3px;
+  transform: translateX(1rem)
+}
+
+/* Header */
+.heading_primary {
+  position: absolute;
+  width: 100%;
+  bottom: 50%;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 100;
+  letter-spacing: 0.5rem;
+  animation: fadeIn 2s;
+}
+
+/* Footer */
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 2%;
+  text-align: center;
+}
+
+.footer_item {
+  font-size: 1.8rem;
+  color: #343a40;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  html {
+    font-size: 56.25%
+  }
+  .heading_primary {
+    letter-spacing: .2rem;
+    top: 50%;  
+  }
+  .navigation_item {
+    display: block;
+    padding: .5rem;
+  }
+  
+  .navigation_link {
+    padding: .5rem;
+  }
+}
