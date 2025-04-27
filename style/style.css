@@ -24,7 +24,7 @@ body {
   background-image: linear-gradient(to bottom, rgba(126, 213, 111, 0.2), rgba(85, 197, 122, 0.4), rgba(40, 180, 133, 0.8)), url(../images/cover_img.jpg);
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 100svh;
   font-family: 'lato', sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
