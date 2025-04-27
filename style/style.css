@@ -130,6 +130,11 @@ body {
   html {
     font-size: 56.25%
   }
+  nav {
+    display: flex;
+    flex-direction: column; /* Stack vertically */
+    align-items: center;
+  }
   .heading_primary {
     letter-spacing: .2rem;
     top: 50%;  
