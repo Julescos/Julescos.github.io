@@ -130,10 +130,15 @@ body {
   html {
     font-size: 56.25%
   }
+  body a {
+    overflow-x: hidden;
+  }
   nav {
     display: flex;
     flex-direction: column; /* Stack vertically */
     align-items: center;
+    max-width: 100%;
+    overflow-x: hidden;
   }
   .heading_primary {
     letter-spacing: .2rem;
