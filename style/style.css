@@ -30,6 +30,10 @@ body {
   font-size: 16px;
 }
 
+html, body {
+  overflow-x: hidden !important;
+}
+
 /* Navigation */
 .navigation_nav {
   width: 100%;
