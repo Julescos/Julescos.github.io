@@ -30,13 +30,6 @@ body {
   font-size: 16px;
 }
 
-html, body {
-  width: 100%;
-  overflow-x: hidden;
-  margin: 0;
-  padding: 0;
-}
-
 /* Navigation */
 .navigation_nav {
   width: 100%;
@@ -136,16 +129,6 @@ html, body {
 @media (max-width: 768px) {
   html {
     font-size: 56.25%
-  }
-  body a {
-    overflow-x: hidden;
-  }
-  nav {
-    display: flex;
-    flex-direction: column; /* Stack vertically */
-    align-items: center;
-    max-width: 100%;
-    overflow-x: hidden;
   }
   .heading_primary {
     letter-spacing: .2rem;
