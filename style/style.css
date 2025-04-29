@@ -9,11 +9,10 @@
   padding: 0;
 }
 
-/* Select color */
-::selection {
-  background-color: #55c57a;
-  color: #ffffff
-}
+/* Colors:
+  background-color: #55c57a; Green
+  color: #ffffff; White
+*/
 
 /* Main */
 html {
@@ -161,5 +160,8 @@ body {
   }
   .toggle_menu {
     display: inline;
+  }
+  a, input[type=submit] {
+    -webkit-tap-highlight-color: transparent;
   }
 }
