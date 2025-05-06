@@ -1,8 +1,8 @@
 # ignore unnecessary files
-.md
-.DS_Store
-.db
-.log
+*.md
+*.DS_Store
+*.db
+*.log
 
 # not README.md file
 !README.md
